@@ -50,7 +50,12 @@
             "csp": null
         },
         "updater": {
-            "active": false
+            "active": true,
+            "dialog": true,
+            "endpoints": [
+                "https://github.com/cryarchy/tauri-updator-test/releases/latest/download/latest.json"
+            ],
+            "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEZEMkExNEU2MkZBRTVEMUIKUldRYlhhNHY1aFFxL1NyWXFIQzh0V09EN25ING51SklsWStqaXhwcG1VM0c2ZlFmY3FHNmxXMHoK"
         },
         "windows": [
             {
